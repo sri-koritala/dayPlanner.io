@@ -83,7 +83,6 @@ x.innerHTML = presentDay;
 var test = false;
 
  // set row color based on time
- updateRowColor($rowDiv, hour);
 
 function updateRowColor ($hourRow,hour) { 
 
