@@ -84,19 +84,4 @@ var test = false;
 
  // set row color based on time
 
-function updateRowColor ($hourRow,hour) { 
 
-  if (test) { console.log("rowColor ",presentDay, hour); }
-
-  if ( hour < presentDay) {
-    // $hourRow.css('')
-    if (test) { console.log("lessThan"); }
-    $hourRow.css("background-color","lightgrey")
-  } else if ( hour > presentDay) {
-    if (test) { console.log("greaterthan"); }
-    $hourRow.css("background-color","lightgreen")
-  } else {
-    if (test) { console.log("eqaul"); }
-    $hourRow.css("background-color","tomato")
-  }
-};
